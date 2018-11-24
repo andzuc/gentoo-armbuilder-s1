@@ -1,4 +1,4 @@
-FROM andzuc/gentoo-armqemu-s0
+FROM andzuc/gentoo-armbuilder-s0
 
 RUN crossdev --stable \
 	     --target ${TARGET} \
